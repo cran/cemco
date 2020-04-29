@@ -1,0 +1,9 @@
+d357b995131554bfa8e4575763af82cc *DESCRIPTION
+1349b0377ccfcb986b61a27914ddeeba *NAMESPACE
+88dea6f63b5af5290c0d944adfbbfa61 *R/cemco.R
+adefe1397163b1198a9361f0fd17d6b5 *man/CemCO.Rd
+d27b1856e66484a94c4c2d3f5a549363 *man/CemCOVar.Rd
+a9a56daccac2a4371e09b6144c8c203f *man/EStep.Rd
+1a800b05133ee699ad3c68a60c903821 *man/EStepVar.Rd
+74066c9bb7d2ff19b910201fcfdd36cc *man/LogLike.Rd
+0542a1df91b13a00a08e82db263bf8dc *man/LogLikeVar.Rd
