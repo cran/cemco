@@ -38,7 +38,12 @@ InitEM <- function(data, G, Y, fator=1){
 
   alpha <- fit$parameters$pro
 
-  mus <- lapply(apply(fit$parameters$mean, 2, list), unlist)
+  if(P > 1){
+    mus <- lapply(apply(fit$parameters$mean, 2, list), unlist)
+  } else {
+    mus <- fit$parameters$mean
+  }
+  
 
   variances <- list()
   vars <- fit$parameters$variance$sigma

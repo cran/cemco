@@ -1,6 +1,5 @@
 \name{LogLikeVar}
 \alias{LogLikeVar}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 Log likelihood of the CemCO algorithm with covariates effects on distributions means and distributions covariance matrices.
 }
@@ -10,7 +9,6 @@ Returns the log-likelihood of the CemCO algorithm with covariates effects on dis
 \usage{
 LogLikeVar(data, Y, phi, G, y_cov)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{data}{
 A numeric vector, matrix, or data frame of observations. Non-numerical values should be converted to integer or float (e.g. dummies). If matrix or data frame, rows and columns correspond to observations (n) and variables (P).
@@ -29,7 +27,6 @@ numeric matrix of data to use as covariates for the covariance effect. Non-numer
 }
 }
 \details{
-%%  ~~ If necessary, more details than the description above ~~
 Calculate the log likelihood of the mixture guassian distribution given by the CemCO algorithm with covariates effects on distributions means and distributions covariance matrices. This function is used in the optimization process of the EM algorithm used to estimate the CemCO parameters.
 }
 \value{
@@ -41,9 +38,6 @@ Stage I non-small cell lung cancer stratification by using a model-based cluster
 \author{
 Relvas, C. & Fujita, A.
 }
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \examples{
 set.seed(42)
 X = cbind(rnorm(10), rnorm(10))

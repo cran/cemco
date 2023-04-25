@@ -1,6 +1,6 @@
 \name{EStep}
 \alias{EStep}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
 Calculate the E step of the CemCO algorithm with covariates effects on distributions means.
 }
@@ -10,7 +10,7 @@ Implements the expectation step of EM algorithm for parameterized Gaussian mixtu
 \usage{
 EStep(data, Y, phi, G)
 }
-%- maybe also 'usage' for other objects documented here.
+
 \arguments{
   \item{data}{
 A numeric vector, matrix, or data frame of observations. Non-numerical values should be converted to integer or float (e.g. dummies). If matrix or data frame, rows and columns correspond to observations (n) and variables (P).
@@ -38,8 +38,6 @@ Stage I non-small cell lung cancer stratification by using a model-based cluster
 Relvas, C. & Fujita, A.
 }
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
 \examples{
 set.seed(42)
 X = cbind(rnorm(60), rnorm(60))
@@ -49,6 +47,5 @@ K = 2
 fit <- CemCO(X, Y, K, max_iter=10, n_start=1, cores=1)
 prob <- EStep(X, Y, fit[[1]], K)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
+
 

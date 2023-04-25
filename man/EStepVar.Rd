@@ -1,6 +1,6 @@
 \name{EStepVar}
 \alias{EStepVar}
-%- Also NEED an '\alias' for EACH other topic documented here.
+
 \title{
 Calculate the E step of the CemCO algorithm with covariates effects on distributions means and distributions covariance matrices.
 }
@@ -10,7 +10,6 @@ Implements the expectation step of EM algorithm for parameterized Gaussian mixtu
 \usage{
 EStepVar(data, Y, phi, G, y_cov)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{data}{
 A numeric vector, matrix, or data frame of observations. Non-numerical values should be converted to integer or float (e.g. dummies). If matrix or data frame, rows and columns correspond to observations (n) and variables (P).
